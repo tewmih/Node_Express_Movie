@@ -1,14 +1,12 @@
-# Ignore VSCode folder
+# Ignore .vscode folder
 .vscode/
+
+# Ignore environment files
+.env
 
 # Ignore node_modules folder
 node_modules/
 
-# Ignore environment configuration files
-config.env
-
-# Ignore package-lock.json (optional, if you don't want it in the repo)
-package-lock.json
-
-# Ignore other environment variables files (.env)
-.env
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
